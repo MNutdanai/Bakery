@@ -1,0 +1,372 @@
+body{
+	background-color: #fcfcfc;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.container{
+	width: auto;
+	height: auto;
+	max-width: 1280px;
+	margin: 0 auto;
+	clear: both;
+}
+header{
+	width: 100%;
+	height: 85px;
+	font-family: 'GothamRounded-Medium';
+	box-shadow: 0px 1px 15px 1px rgba(0,0,0,0.1);
+	z-index: 500;
+	position: fixed;
+	background-color: #fff;
+}
+.menubarlist{
+	float: left;
+
+	width: 45%;
+}
+.menubarlist > ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 70px;
+} 
+.menubarlist > ul > li{
+	float: left;
+	margin-right: 45px;
+
+	line-height: 57px;
+}
+.menubarlist > ul > li > a{
+	color: #333;
+	transition: .5s;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menubarlist span{
+	color: #f9a54b;
+}
+.active{
+	color: #f9a54b;
+}
+.menubarlist > ul > li > a:hover{
+	color: #f9a54b;
+}
+.logo{
+	width: 10%;
+	height: 80px;
+	margin: 0 auto;
+	float: left;
+}
+.logo img{
+	width: 100%;	
+}
+.login{
+	width: 45%;
+	height: 80px;
+	float: left;
+}
+.singin{
+	margin-right: 50px;
+	width: 70px;
+	height: 35px;
+	font-size: 12px;
+	line-height: 35px;
+	color: #000;
+	float: right;
+	background-image: url('../images/locked.png');
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 15px 9px;
+	padding-left: 35px;
+	margin-top: 25px;
+	transition: 2s;
+}
+.register{
+	margin-right: 10px;
+	width: 70px;
+	height: 35px;
+	font-size: 12px;
+	line-height: 35px;
+	color: #000;
+	float: right;
+	margin-top: 25px;
+	transition: 2s;
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+.user{
+	width: 45%;
+	height: 80px;
+	float: left;
+	display: none;
+}
+.shoppingbt{
+	margin-right: 70px;
+	width: 75px;
+	height: 37px;
+	font-size: 12px;
+	line-height: 35px;
+	border: 1px solid #eb9e45;
+	color: #eb9e45;
+	border-radius: 50px;
+	float: right;
+	background-image: url('../image/shopping.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 15px 7px;
+	padding-left: 45px;
+	margin-top: 25px;
+	transition: 0.4s ease-in;
+}
+.shoppingbt:hover{
+	color: #fff;
+	padding-left: 35px;
+	width: 85px;
+	background-image: none;
+	background-color: #eb9e45;
+}
+.solid{
+	width: 1px;
+	height: 40px;
+	float: right;
+	margin: 25px 20px 0 0;
+	background-color: #eaeaea;
+}
+.logout input{
+	border: none;
+	background-color: #fff;
+	color: #666;
+	float: right;
+	margin: 20px 15px 0 0;
+	font-family: "GothamRounded-Medium";
+	cursor: pointer;
+	font-size: 12px;
+}
+.logout input:hover{
+	border-bottom: 1px solid #666;
+}
+.container{
+	width: auto;
+	max-width: 1280px;
+	margin: 0 auto;
+	clear: both;
+}
+.shopping-step-box{
+	width: 592px;
+	height: 50px;
+	margin: 150px auto 30px;
+	font-family: 'Sukhumvit';
+}
+.box-step1{
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	background-color: #eb9e45;
+	line-height: 39px;
+	border: 2px solid #eb9e45;
+	float: left;
+}
+.box-step{
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	color: #eb9e45;
+	line-height: 35px;
+	border: 2px solid #eb9e45;
+	float: left;
+}
+.box-step-sloid{
+	width: 95px;
+	height: 2px;
+	margin-top: 20px;
+	float: left;
+	background-color: #eb9e45;
+}
+.shopping{
+	width: 820px;
+	height: 620px;
+	margin: 0 auto ;
+	border-radius: 3px;
+	padding-top: 60px;
+	border: 1px solid #e7e7e7;
+	background-color: #fff;
+	box-sizing:border-box;
+}
+.shopping-box{
+	width: 280px;
+	height: 435px;
+	font-size: 13px;
+	font-family: 'GothamRounded-Medium';
+	margin: 0 auto;
+}
+.shopping-box h5{
+	font-size: 28px;
+	line-height: 10px;
+	color:  #eb9e45;
+	text-align: center;
+}
+.shopping-box h4{
+	text-align: center;
+	font-family: 'GothamRounded-Light';
+	line-height: 20px;
+}
+.input-text{
+	width: 270px;
+	border: none;
+	font-size: 18px;
+	height: 32px;
+	margin-top: 5px;
+	font-family: 'Sukhumvit';
+	border: 1px solid #ccc;
+}
+.input-text-box{
+	width: 284px;
+	margin: 30px 5px 0;
+	font-size: 11px;
+	font-family: 'GothamRounded-Light';
+}
+.input-text-box-add{
+	width: 130px;
+	height: 32px;
+	float: left;
+	padding-top: 35px;
+	font-size: 11px;
+	font-family: 'GothamRounded-Light';
+	margin: 0 5px;
+}
+.input-text-add{
+	width: 130px;
+	border: 1px solid #ccc;
+	height: 32px;
+	font-family: 'Sukhumvit';
+	margin-top: 5px;
+}
+.input-box{
+	width: 322px;
+	margin-top: 120px;
+	margin-left: -20px;
+	height: 50px;
+}
+.back-input{
+	width: 155px;
+	height: 37px;
+	float: left;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	margin: 0 3px;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	font-family: 'Sukhumvit';
+	background-color: #a6a6a6;
+}
+.back-input a{
+	color: #fff;
+	line-height: 35px;
+	line-height: 40px;
+	text-decoration: none;
+}
+.back-input:hover{
+	transition:0.4s;
+	background-color: #b4b4b4;
+}
+.next-input{
+	width: 155px;
+	height: 37px;
+	margin: 0 3px;
+	border-radius: 5px; 
+	float: left;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	font-family: 'Sukhumvit';
+	cursor: pointer; 
+	background-color: #eb9e45;
+}
+.next-input:hover{
+	transition:0.4s;
+	background-color:#f8a449;
+}
+footer{
+	background-image: url('../image/footer.jpg');
+	background-repeat: repeat-x;
+	background-position: center;
+	background-size: 100%;
+	margin-top: 80px;
+	height: 260px;
+}
+.footer-scail{
+	width: 25px;
+	height: 25px;
+	margin: 90px 20px 40px 20px;
+	opacity: 0.9;
+	float: left;
+}
+.footer-scail:hover{
+	opacity: 0.5;
+}
+footer .footertop{
+	width: 140px;
+	height: 75px;
+	margin: 25px auto 0;
+}
+footer .footercenter{
+	width: 300px;
+	height: 30px;
+	margin: 20px auto;
+	text-align: center;
+}
+footer .footercenter ul{
+	text-align: center;
+	list-style-type: none;
+}
+footer .footercenter ul li{
+	font-size: 18px;
+	color: #fff;
+	margin: 0 10px;
+	cursor: pointer;
+	transition: .3s ease-in;
+}
+footer .footercenter ul li:hover{
+	color: #bc222a;
+}
+footer .footerdown{
+	width: 444px;
+	height: 40px;
+	margin: 0 auto;
+}
+footer .footerdown .placeholder{
+	color: #000;
+}
+footer .footerdown .email{
+	width: 300px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Sukhumvit';
+	font-size: 16px;
+	padding-left: 20px;
+}
+footer .footerdown .send{
+	width: 140px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Sukhumvit';
+	font-size: 16px;
+	transition: .3s ease-in;
+}
+footer .footerdown .send:hover{
+	background-color:  #a96215;
+}
